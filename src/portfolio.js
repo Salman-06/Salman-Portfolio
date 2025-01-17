@@ -57,37 +57,37 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "HTML-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "CSS",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "Reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "Nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "SQL-Database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-  ],
-  display: true // Set false to hide this section, defaults to true
+softwareSkills: [
+  {
+    skillName: "HTML-5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "CSS",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  {
+    skillName: "Reactjs",
+    fontAwesomeClassname: "fab fa-react"
+  },
+  {
+    skillName: "Nodejs",
+    fontAwesomeClassname: "fab fa-node"
+  },
+  {
+    skillName: "SQL-Database",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+],
+display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -115,6 +115,7 @@ const educationInfo = {
   ]
 };
 
+
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -130,10 +131,43 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
+
+// Work experience section
+
+const workExperiences = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Web Developer",
+      company: "Lumous Global Ventures",
+      companylogo: require("./assets/images/Lumous 1.png"),
+      date: "December 2024 – Present",
+      desc: "As an IT and Web Developer at Lumous Global Ventures, I specialize in creating dynamic, user-friendly websites tailored to business needs. My work focuses on combining technical expertise with creative design to deliver impactful online experiences that drive growth and innovation.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    // {
+    //   role: "Front-End Developer",
+    //   company: "Quora",
+    //   companylogo: require("./assets/images/quoraLogo.png"),
+    //   date: "May 2017 – May 2018",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // },
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Airbnb",
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // }
+  ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -213,36 +247,12 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
-
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2022",
-      slides_url: "https://drive.google.com/file/d/1OG4WOGaL77dkwuaaT9DUoKvk0YVNLRNn/view?usp=drive_link",
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  resumeLink: "https://docs.google.com/document/d/1s64-7-cApJYrrM6HTDHNZR4pWQpORYWJ/edit?usp=drive_link&ouid=101452613115539452204&rtpof=true&sd=true", // Set to empty to hide the button
-  
+
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
@@ -251,14 +261,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-8344655555",
+  number: "+91 8344655555",
   email_address: "salmanshaa1825@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "SalmanBarick", //Replace "twitter" with your twitter username without @
+  userName: "twitter", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
@@ -272,10 +282,10 @@ export {
   skillsSection,
   educationInfo,
   techStack,
+  workExperiences,
   openSource,
   bigProjects,
   achievementSection,
-  talkSection,
   contactInfo,
   twitterDetails,
   isHireable,
