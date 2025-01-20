@@ -262,7 +262,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91 8344655555",
-  email_address: "salmanshaa1825@gmail.com"
+  email_address: "salmanshaa1825@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
