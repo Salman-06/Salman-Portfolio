@@ -147,11 +147,7 @@ const workExperiences = {
       company: "Lumous Global Ventures",
       companylogo: require("./assets/images/Lumous 1.png"),
       date: "December 2024 – Present",
-      desc: "As an IT and Web Developer at Lumous Global Ventures, I specialize in creating dynamic, user-friendly websites tailored to business needs. My work focuses on combining technical expertise with creative design to deliver impactful online experiences that drive growth and innovation.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "As an IT and Web Developer at Lumous Global Ventures, I specialize in creating dynamic, user-friendly websites tailored to business needs. My work focuses on combining technical expertise with creative design to deliver impactful online experiences that drive growth and innovation."
     }
   ]
 };
@@ -245,10 +241,9 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-8344655555",
-  email_address: "salmanshaa1825@gmail.com"
+  number: "+91-834465555",
+  email_address: "salmanshaa1825@gmail.com",
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all."
 };
 
 // Twitter Section
