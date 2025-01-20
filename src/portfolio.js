@@ -97,7 +97,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Rathinam College of Arts and Science",
-      logo: require("./assets/images/rathinam.jpeg"),
+      // logo: require("./assets/images/rathinam.jpeg"),
       subHeader: "Bachelor of Science in Artificial Intelligence and Machine Learning",
       duration: "August 2022 - May 2025",
       descBullets: [
@@ -106,7 +106,7 @@ const educationInfo = {
     },
     {
       schoolName: "Presentation Convent",
-      logo: require("./assets/images/presentation.jpeg"),
+      // logo: require("./assets/images/presentation.jpeg"),
       duration: "12th : September 2021 - April 2022, 10th : September 2019 - April 2020",
       descBullets: ["12th Grade : 81.8",
         "10th Grade : 52.8"
@@ -148,25 +148,11 @@ const workExperiences = {
       companylogo: require("./assets/images/Lumous 1.png"),
       date: "December 2024 – Present",
       desc: "As an IT and Web Developer at Lumous Global Ventures, I specialize in creating dynamic, user-friendly websites tailored to business needs. My work focuses on combining technical expertise with creative design to deliver impactful online experiences that drive growth and innovation.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
     }
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 – May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
   ]
 };
 
