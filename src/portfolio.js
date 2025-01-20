@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Developer 🚀 having an knowledge of building Website with JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
-  resumeLink: "https://docs.google.com/document/d/1s64-7-cApJYrrM6HTDHNZR4pWQpORYWJ/edit?usp=drive_link&ouid=101452613115539452204&rtpof=true&sd=true", // Set to empty to hide the button
+  resumeLink: "https://docs.google.com/file/d/1Vbfn8tvSy2CFsmWTVc91gFAPxxb5Musi/edit?usp=docslist_api&filetype=msword", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -258,18 +258,18 @@ const resumeSection = {
 };
 
 const contactInfo = {
+  display: true, // Set true to display this section, defaults to false
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91 8344655555",
-  email_address: "salmanshaa1825@gmail.com",
-  display: true // Set true to display this section, defaults to false
+  email_address: "salmanshaa1825@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "SalmanBarick", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
