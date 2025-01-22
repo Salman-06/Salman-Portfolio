@@ -85,7 +85,7 @@ softwareSkills: [
   {
     skillName: "Python",
     fontAwesomeClassname: "fab fa-python"
-  },
+  }
 ],
 display: true // Set false to hide this section, defaults to true
 };
