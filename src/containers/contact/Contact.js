@@ -1,12 +1,11 @@
 import React, {useContext} from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration} from "../../portfolio";
+import {illustration, contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-import { contactInfo } from "../../portfolio";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
@@ -30,31 +29,26 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              {contactInfo.number ? (
-              <>
-                <h3 className="contact-detail-header">Phone:</h3>
-                <a className="contact-detail" href={"tel:" + contactInfo.number}>
-                  {contactInfo.number}
-                </a>
-                <br />
-                <br />
-              </>
-            ) : (
-              <p>Phone number is unavailable</p>
-            )}
-            
-            {contactInfo.email_address ? (
-              <>
-                <h3 className="contact-detail-header">Email:</h3>
-                <a className="contact-detail-email" href={"mailto:" + contactInfo.email_address}>
-                  {contactInfo.email_address}
-                </a>
-                <br />
-                <br />
-              </>
-            ) : (
-              <p>Email address is unavailable</p>
-            )}
+              {contactInfo.number && (
+                <>
+                  <a
+                    className="contact-detail"
+                    href={"tel:" + contactInfo.number}
+                  >
+                    {contactInfo.number}
+                  </a>
+                  <br />
+                  <br />
+                </>
+              )}
+              <a
+                className="contact-detail-email"
+                href={"mailto:" + contactInfo.email_address}
+              >
+                {contactInfo.email_address}
+              </a>
+              <br />
+              <br />
               <SocialMedia />
             </div>
           </div>
