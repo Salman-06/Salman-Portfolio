@@ -101,7 +101,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Artificial Intelligence and Machine Learning",
       duration: "August 2022 - May 2025",
       descBullets: [
-        "Current CGPA : 7.4%",
+        "Current CGPA : 7.4%"
         ]
     },
     {
@@ -169,12 +169,12 @@ const bigProjects = {
     {
       image: require("./assets/images/logo.png"),
       projectName: "Accounts Management",
-      projectDesc: "Hands on experience by creating a website or software for our own busniess purpose and creating it by front-end with HTML, CSS with js and connecting it to back-end through php with databae type SQL.",
+      projectDesc: "Hands on experience by creating a website or software for our own busniess purpose and creating it by front-end with HTML, CSS with js and connecting it to back-end through php with databae type SQL."
     },
         {
       image: require("./assets/images/Lumous 1.png"),
       projectName: "Lumous Global Ventures",
-      projectDesc: "As a Web Development Intern, I contributed to develope a responsive website for public user to see our company services and features and creating a admin's user-friendly dashboard for access applications and adding photos or videos to website for public views.",
+      projectDesc: "As a Web Development Intern, I contributed to develope a responsive website for public user to see our company services and features and creating a admin's user-friendly dashboard for access applications and adding photos or videos to website for public views."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -222,7 +222,10 @@ const achievementSection = {
       image: require("./assets/images/hackerRank.jpeg"),
       imageAlt: "Java",
       footerLink: [
-        {name: "Certification", url: "https://www.hackerrank.com/certificates/e0c6736d8541"},
+        {
+          name: "Certification",
+         url: "https://www.hackerrank.com/certificates/e0c6736d8541"
+        }
       ]
     }
   ],
