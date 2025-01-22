@@ -29,28 +29,32 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              {contactInfo.number && (
-              <>
-                <h3 className="contact-detail-header">Phone:</h3>
-                <a
-                  className="contact-detail"
-                  href={"tel:" + contactInfo.number}
-                >
-                  {contactInfo.number}
-                </a>
-                <br />
-                <br />
-              </>
-            )}
-            <h3 className="contact-detail-header">Email:</h3>
-            <a
-              className="contact-detail-email"
-              href={"mailto:" + contactInfo.email_address}
-            >
-              {contactInfo.email_address}
-            </a>
-              <br />
-              <br />
+              {contactInfo.number ? (
+  <>
+    <h3 className="contact-detail-header">Phone:</h3>
+    <a className="contact-detail" href={"tel:" + contactInfo.number}>
+      {contactInfo.number}
+    </a>
+    <br />
+    <br />
+  </>
+) : (
+  <p>Phone number is unavailable</p>
+)}
+
+{contactInfo.email_address ? (
+  <>
+    <h3 className="contact-detail-header">Email:</h3>
+    <a className="contact-detail-email" href={"mailto:" + contactInfo.email_address}>
+      {contactInfo.email_address}
+    </a>
+    <br />
+    <br />
+  </>
+) : (
+  <p>Email address is unavailable</p>
+)}
+
               <SocialMedia />
             </div>
           </div>
