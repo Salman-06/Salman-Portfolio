@@ -51,7 +51,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Had a interest in Mobile App development with Nodejs and Flutter"),
+    emoji("⚡ Had a interest in Mobile App development with Nodejs and Flutter")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -243,8 +243,6 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-8344655555",
   email_address: "salmanshaa1825@gmail.com"
 };
