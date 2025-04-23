@@ -175,6 +175,11 @@ const bigProjects = {
       image: require("./assets/images/Lumous 1.png"),
       projectName: "Lumous Global Ventures",
       projectDesc: "As a Web Development Intern, I contributed to develope a responsive website for public user to see our company services and features and creating a admin's user-friendly dashboard for access applications and adding photos or videos to website for public views."
+    },
+    {
+      image: require("./assets/images/GH.png"),
+      projectName: "Gowtham Multi-Speciality Hospital",
+      projectDesc: "Developed a professional, user-friendly website for Gowtham Multi-Speciality Hospital, showcasing their services, departments, doctors, and facilities. The site includes appointment booking, responsive design for mobile devices, and easy navigation to enhance patient engagement and accessibility."
     }
   ],
   display: true // Set false to hide this section, defaults to true
