@@ -164,7 +164,6 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "I have created those project for my college",
   projects: [
     {
       image: require("./assets/images/logo.png"),
