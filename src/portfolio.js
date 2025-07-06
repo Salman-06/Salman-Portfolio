@@ -148,6 +148,13 @@ const workExperiences = {
       companylogo: require("./assets/images/Lumous 1.png"),
       date: "December 2024 – Present",
       desc: "As an IT and Web Developer at Lumous Global Ventures, I specialize in creating dynamic, user-friendly websites tailored to business needs. My work focuses on combining technical expertise with creative design to deliver impactful online experiences that drive growth and innovation."
+    },
+    {
+      role: "Web Developer",
+      company: "Gensyx Solutions",
+      companylogo: require("./assets/images/Gensyx Logo.png"),
+      date: "April 2025 – Present",
+      desc: "Freelancing Web Developer at Gensyx Solutions, responsible for designing and developing responsive, user-friendly websites using modern web technologies. Collaborated on client projects to deliver efficient, secure, and scalable web solutions tailored to business needs."
     }
   ]
 };
