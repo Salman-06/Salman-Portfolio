@@ -147,7 +147,13 @@ const workExperiences = {
       company: "Lumous Global Ventures",
       companylogo: require("./assets/images/Lumous 1.png"),
       date: "December 2024 – Present",
-      desc: "As an IT and Web Developer at Lumous Global Ventures, I specialize in creating dynamic, user-friendly websites tailored to business needs. My work focuses on combining technical expertise with creative design to deliver impactful online experiences that drive growth and innovation."
+      desc: "As an IT and Web Developer at Lumous Global Ventures, I specialize in creating dynamic, user-friendly websites tailored to business needs. My work focuses on combining technical expertise with creative design to deliver impactful online experiences that drive growth and innovation.",
+      footerLink: [
+        {
+          name: "Certification",
+         url: "https://www.hackerrank.com/certificates/e0c6736d8541"
+        }
+      ]
     },
     {
       role: "Web Developer",
