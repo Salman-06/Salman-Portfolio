@@ -147,13 +147,7 @@ const workExperiences = {
       company: "Lumous Global Ventures",
       companylogo: require("./assets/images/Lumous 1.png"),
       date: "December 2024 – Present",
-      desc: "As an IT and Web Developer at Lumous Global Ventures, I specialize in creating dynamic, user-friendly websites tailored to business needs. My work focuses on combining technical expertise with creative design to deliver impactful online experiences that drive growth and innovation.",
-      footerLink: [
-        {
-          name: "Certification",
-         url: "https://www.hackerrank.com/certificates/e0c6736d8541"
-        }
-      ]
+      desc: "As an IT and Web Developer at Lumous Global Ventures, I specialize in creating dynamic, user-friendly websites tailored to business needs. My work focuses on combining technical expertise with creative design to deliver impactful online experiences that drive growth and innovation."
     },
     {
       role: "Web Developer",
@@ -181,7 +175,13 @@ const bigProjects = {
     {
       image: require("./assets/images/New Logo for Covai Traders.png"),
       projectName: "Accounts Management",
-      projectDesc: "Hands on experience by creating a website or software for our own busniess purpose and creating it by front-end with HTML, CSS with js and connecting it to back-end through php with databae type SQL."
+      projectDesc: "Hands on experience by creating a website or software for our own busniess purpose and creating it by front-end with HTML, CSS with js and connecting it to back-end through php with databae type SQL.",
+            footerLink: [
+        {
+          name: "Certification",
+         url: "https://www.hackerrank.com/certificates/e0c6736d8541"
+        }
+      ]
     },
         {
       image: require("./assets/images/Lumous 1.png"),
