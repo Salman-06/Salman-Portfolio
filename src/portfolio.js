@@ -173,7 +173,7 @@ const bigProjects = {
   title: "Projects",
   projects: [
     {
-      image: require("./assets/images/logo.png"),
+      image: require("./assets/images/New Logo for Covai Traders.png"),
       projectName: "Accounts Management",
       projectDesc: "Hands on experience by creating a website or software for our own busniess purpose and creating it by front-end with HTML, CSS with js and connecting it to back-end through php with databae type SQL."
     },
