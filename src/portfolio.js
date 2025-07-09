@@ -176,22 +176,34 @@ const bigProjects = {
       image: require("./assets/images/New Logo for Covai Traders.png"),
       projectName: "Accounts Management",
       projectDesc: "Hands on experience by creating a website or software for our own busniess purpose and creating it by front-end with HTML, CSS with js and connecting it to back-end through php with databae type SQL.",
-            footerLink: [
+      footerLink: [
         {
-          name: "Certification",
-         url: "https://www.hackerrank.com/certificates/e0c6736d8541"
+          name: "Visit",
+         url: "https://covaitraders.in/sales/covai/index.html"
         }
       ]
     },
         {
       image: require("./assets/images/Lumous 1.png"),
       projectName: "Lumous Global Ventures",
-      projectDesc: "As a Web Development Intern, I contributed to develope a responsive website for public user to see our company services and features and creating a admin's user-friendly dashboard for access applications and adding photos or videos to website for public views."
+      projectDesc: "As a Web Development Intern, I contributed to develope a responsive website for public user to see our company services and features and creating a admin's user-friendly dashboard for access applications and adding photos or videos to website for public views.",
+      footerLink: [
+        {
+          name: "Visit",
+         url: "https://www.lumousglobal.com/"
+        }
+      ]
     },
     {
       image: require("./assets/images/GH.png"),
       projectName: "Gowtham Multi-Speciality Hospital",
-      projectDesc: "Developed a professional, user-friendly website for Gowtham Multi-Speciality Hospital, showcasing their services, departments, doctors, and facilities. The site includes appointment booking, responsive design for mobile devices, and easy navigation to enhance patient engagement and accessibility."
+      projectDesc: "Developed a professional, user-friendly website for Gowtham Multi-Speciality Hospital, showcasing their services, departments, doctors, and facilities. The site includes appointment booking, responsive design for mobile devices, and easy navigation to enhance patient engagement and accessibility.",
+      footerLink: [
+        {
+          name: "Visit",
+         url: "https://gowthamhospital.com/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
