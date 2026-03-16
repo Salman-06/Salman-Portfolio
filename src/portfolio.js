@@ -172,7 +172,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit",
-         url: "https://covaitraders.in/sales/covai/index.html"
+         url: "https://covaitraders.in/sales/SalesManagement"
         }
       ]
     },
