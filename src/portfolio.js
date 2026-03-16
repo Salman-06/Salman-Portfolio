@@ -144,13 +144,6 @@ const workExperiences = {
   experience: [
     {
       role: "Web Developer",
-      company: "Lumous Global Ventures",
-      companylogo: require("./assets/images/Lumous 1.png"),
-      date: "December 2024 – Present",
-      desc: "As an IT and Web Developer at Lumous Global Ventures, I specialize in creating dynamic, user-friendly websites tailored to business needs. My work focuses on combining technical expertise with creative design to deliver impactful online experiences that drive growth and innovation."
-    },
-    {
-      role: "Web Developer",
       company: "Gensyx Solutions",
       companylogo: require("./assets/images/Gensyx Logo.png"),
       date: "April 2025 – Present",
