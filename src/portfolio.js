@@ -143,7 +143,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Web Developer",
+      role: "Co Founder / Web Developer",
       company: "Gensyx Solutions",
       companylogo: require("./assets/images/Gensyx Logo.png"),
       date: "April 2025 – Present",
