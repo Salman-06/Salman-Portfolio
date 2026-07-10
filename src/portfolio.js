@@ -139,19 +139,6 @@ const techStack = {
 
 // Work experience section
 
-const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Co Founder / Web Developer",
-      company: "Gensyx Solutions",
-      companylogo: require("./assets/images/Gensyx Logo.png"),
-      date: "April 2025 – Present",
-      desc: "Freelancing Web Developer at Gensyx Solutions, responsible for designing and developing responsive, user-friendly websites using modern web technologies. Collaborated on client projects to deliver efficient, secure, and scalable web solutions tailored to business needs."
-    }
-  ]
-};
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
