@@ -138,7 +138,32 @@ const techStack = {
 };
 
 // Work experience section
-
+const workExperiences = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Web Developer",
+      company: "Web Developer",
+      companylogo: require("./assets/images/Gensyx Logo.png"),
+      date: "April 2025 – Present",
+      desc: "Freelancing Web Developer at Gensyx Solutions, responsible for designing and developing responsive, user-friendly websites using modern web technologies. Collaborated on client projects to deliver efficient, secure, and scalable web solutions tailored to business needs.",
+    },
+    // {
+    //   role: "Front-End Developer",
+    //   company: "Quora",
+    //   companylogo: require("./assets/images/quoraLogo.png"),
+    //   date: "May 2017 – May 2018",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // },
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Airbnb",
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // }
+  ]
+};
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
