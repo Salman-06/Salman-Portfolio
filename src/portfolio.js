@@ -83,8 +83,8 @@ softwareSkills: [
     fontAwesomeClassname: "fas fa-database"
   },
   {
-    skillName: "Python",
-    fontAwesomeClassname: "fab fa-python"
+    skillName: "Post Man",
+    fontAwesomeClassname: "fab fa-post-man"
   }
 ],
 display: true // Set false to hide this section, defaults to true
