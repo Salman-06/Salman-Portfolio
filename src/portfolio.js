@@ -71,12 +71,12 @@ softwareSkills: [
     fontAwesomeClassname: "fab fa-js"
   },
   {
-    skillName: "Reactjs",
-    fontAwesomeClassname: "fab fa-react"
+    skillName: "Java",
+    fontAwesomeClassname: "fab fa-java"
   },
   {
-    skillName: "Nodejs",
-    fontAwesomeClassname: "fab fa-node"
+    skillName: "Spring Boot",
+    fontAwesomeClassname: "fab fa-spring-boot"
   },
   {
     skillName: "SQL-Database",
